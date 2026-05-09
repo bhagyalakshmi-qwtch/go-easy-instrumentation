@@ -6,14 +6,14 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/newrelic/go-easy-instrumentation/integrations/nragent"
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrnethttp"
-	"github.com/newrelic/go-easy-instrumentation/parser"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nragent"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrnethttp"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
 	"github.com/dave/dst/decorator/resolver/guess"
-	"github.com/newrelic/go-easy-instrumentation/internal/codegen"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/codegen"
 	"github.com/stretchr/testify/assert"
 )
 

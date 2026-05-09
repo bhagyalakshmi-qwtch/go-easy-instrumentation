@@ -13,7 +13,7 @@ import (
 	"github.com/dave/dst/decorator"
 	"github.com/dave/dst/decorator/resolver/guess"
 	"github.com/dave/dst/dstutil"
-	"github.com/newrelic/go-easy-instrumentation/parser/tracestate"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/tracestate"
 	"golang.org/x/tools/go/packages"
 )
 

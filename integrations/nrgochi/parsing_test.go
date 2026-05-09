@@ -1,9 +1,9 @@
 package nrgochi_test
 
 import (
-	"github.com/newrelic/go-easy-instrumentation/integrations/nragent"
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrgochi"
-	"github.com/newrelic/go-easy-instrumentation/parser"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nragent"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrgochi"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser"
 	"go/token"
 	"testing"
 
@@ -21,9 +21,9 @@ func TestInstrumentChiRouter(t *testing.T) {
 			name: "detect and trace chi router in main function",
 			code: `package main
 import (
-	"github.com/newrelic/go-easy-instrumentation/integrations/nragent"
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrgochi"
-	"github.com/newrelic/go-easy-instrumentation/parser"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nragent"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrgochi"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser"
 	"net/http"
 
 	chi "github.com/go-chi/chi/v5"

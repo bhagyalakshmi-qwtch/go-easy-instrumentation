@@ -1,4 +1,4 @@
-module github.com/newrelic/go-easy-instrumentation
+module github.com/bhagyalakshmi-qwtch/go-easy-instrumentation
 
 go 1.25.0
 

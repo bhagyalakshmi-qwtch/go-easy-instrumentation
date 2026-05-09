@@ -1,8 +1,8 @@
 package nrmysql_test
 
 import (
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrmysql"
-	"github.com/newrelic/go-easy-instrumentation/parser"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrmysql"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser"
 	"go/token"
 	"testing"
 
@@ -21,8 +21,8 @@ func TestInstrumentSQLHandler(t *testing.T) {
 			code: `package main
 
 import (
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrmysql"
-	"github.com/newrelic/go-easy-instrumentation/parser"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrmysql"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser"
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
 )

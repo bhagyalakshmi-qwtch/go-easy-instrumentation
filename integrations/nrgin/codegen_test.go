@@ -1,7 +1,7 @@
 package nrgin_test
 
 import (
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrgin"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrgin"
 	"go/token"
 	"reflect"
 	"testing"

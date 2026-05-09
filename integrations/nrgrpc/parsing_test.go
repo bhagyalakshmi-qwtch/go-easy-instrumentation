@@ -7,12 +7,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrgrpc"
-	"github.com/newrelic/go-easy-instrumentation/parser"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrgrpc"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
-	"github.com/newrelic/go-easy-instrumentation/parser/facts"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/facts"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/tools/go/packages"
 )

@@ -1,7 +1,7 @@
 package nrmysql_test
 
 import (
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrmysql"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrmysql"
 	"go/token"
 	"testing"
 

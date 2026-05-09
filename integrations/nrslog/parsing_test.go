@@ -3,8 +3,8 @@ package nrslog_test
 import (
 	"testing"
 
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrslog"
-	"github.com/newrelic/go-easy-instrumentation/parser"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrslog"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser"
 
 	"github.com/stretchr/testify/assert"
 )

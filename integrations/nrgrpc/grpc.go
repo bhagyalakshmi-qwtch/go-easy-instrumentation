@@ -8,13 +8,13 @@ import (
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
 	"github.com/dave/dst/dstutil"
-	"github.com/newrelic/go-easy-instrumentation/internal/codegen"
-	"github.com/newrelic/go-easy-instrumentation/parser"
-	"github.com/newrelic/go-easy-instrumentation/internal/comment"
-	"github.com/newrelic/go-easy-instrumentation/internal/util"
-	"github.com/newrelic/go-easy-instrumentation/parser/facts"
-	"github.com/newrelic/go-easy-instrumentation/parser/tracestate"
-	"github.com/newrelic/go-easy-instrumentation/parser/tracestate/traceobject"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/codegen"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/comment"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/util"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/facts"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/tracestate"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/tracestate/traceobject"
 )
 
 const (

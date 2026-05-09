@@ -7,7 +7,7 @@ import (
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
-	"github.com/newrelic/go-easy-instrumentation/internal/util"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/util"
 )
 
 // getPosition creates a human readable string representing the position of a node in an application.

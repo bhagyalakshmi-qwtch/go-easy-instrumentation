@@ -4,10 +4,10 @@ import (
 	"testing"
 
 	"github.com/dave/dst"
-	"github.com/newrelic/go-easy-instrumentation/integrations/nragent"
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrnethttp"
-	"github.com/newrelic/go-easy-instrumentation/internal/codegen"
-	"github.com/newrelic/go-easy-instrumentation/parser"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nragent"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrnethttp"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/codegen"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser"
 	"github.com/stretchr/testify/assert"
 )
 

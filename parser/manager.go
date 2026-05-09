@@ -13,12 +13,12 @@ import (
 	"github.com/dave/dst/decorator"
 	"github.com/dave/dst/decorator/resolver/gopackages"
 	"github.com/dave/dst/dstutil"
-	"github.com/newrelic/go-easy-instrumentation/internal/codegen"
-	"github.com/newrelic/go-easy-instrumentation/internal/util"
-	"github.com/newrelic/go-easy-instrumentation/parser/errorcache"
-	"github.com/newrelic/go-easy-instrumentation/parser/facts"
-	"github.com/newrelic/go-easy-instrumentation/parser/tracestate"
-	"github.com/newrelic/go-easy-instrumentation/parser/transactioncache"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/codegen"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/util"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/errorcache"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/facts"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/tracestate"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/transactioncache"
 	godiffpatch "github.com/sourcegraph/go-diff-patch"
 )
 

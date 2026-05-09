@@ -7,8 +7,8 @@ import (
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/dstutil"
-	"github.com/newrelic/go-easy-instrumentation/parser/tracestate"
-	"github.com/newrelic/go-easy-instrumentation/parser/transactioncache"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/tracestate"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/transactioncache"
 	"github.com/stretchr/testify/assert"
 )
 

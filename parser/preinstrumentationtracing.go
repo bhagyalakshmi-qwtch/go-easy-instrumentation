@@ -3,7 +3,7 @@ package parser
 import (
 	"github.com/dave/dst"
 	"github.com/dave/dst/dstutil"
-	"github.com/newrelic/go-easy-instrumentation/parser/transactioncache"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser/transactioncache"
 )
 
 // DetectTransactions analyzes the AST to identify and track transactions within function declarations.

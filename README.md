@@ -1,6 +1,6 @@
 [![Community Plus header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png)](https://opensource.newrelic.com/oss-category/#community-plus)
 
-# Go Easy Instrumentation [![GoDoc](https://godoc.org/github.com/newrelic/go-easy-instrumentation?status.svg)](https://godoc.org/github.com/newrelic/go-easy-instrumentation) [![Go Report Card](https://goreportcard.com/badge/github.com/newrelic/go-easy-instrumentation)](https://goreportcard.com/report/github.com/newrelic/go-easy-instrumentation) [![codecov](https://codecov.io/gh/newrelic/go-easy-instrumentation/graph/badge.svg?token=0qFy6WGpL8)](https://codecov.io/gh/newrelic/go-easy-instrumentation)
+# Go Easy Instrumentation [![GoDoc](https://godoc.org/github.com/bhagyalakshmi-qwtch/go-easy-instrumentation?status.svg)](https://godoc.org/github.com/bhagyalakshmi-qwtch/go-easy-instrumentation) [![Go Report Card](https://goreportcard.com/badge/github.com/bhagyalakshmi-qwtch/go-easy-instrumentation)](https://goreportcard.com/report/github.com/bhagyalakshmi-qwtch/go-easy-instrumentation) [![codecov](https://codecov.io/gh/bhagyalakshmi-qwtch/go-easy-instrumentation/graph/badge.svg?token=0qFy6WGpL8)](https://codecov.io/gh/bhagyalakshmi-qwtch/go-easy-instrumentation)
 Go is a compiled language with an opaque runtime, making it unable to support automatic instrumentation like other languages. For this reason, the New Relic Go agent is designed as an SDK. Since the Go agent is an SDK, it requires more manual work to set up than agents for languages that support automatic instrumentation.
 
 In an effort to make instrumentation easier, the Go agent team created an instrumentation tool that is currently in preview. This tool does most of the work for you by suggesting changes to your source code that instrument your application with the New Relic Go agent.
@@ -10,7 +10,7 @@ In an effort to make instrumentation easier, the Go agent team created an instru
 ### Install
 
 ```sh
-go install github.com/newrelic/go-easy-instrumentation@latest
+go install github.com/bhagyalakshmi-qwtch/go-easy-instrumentation@latest
 ```
 
 Make sure `$GOPATH/bin` (or `$HOME/go/bin` by default) is in your `PATH`.
@@ -34,7 +34,7 @@ git apply /path/to/your/app/new-relic-instrumentation.diff
 <summary><b>Alternative: Build from source</b></summary>
 
 ```sh
-git clone https://github.com/newrelic/go-easy-instrumentation.git
+git clone https://github.com/bhagyalakshmi-qwtch/go-easy-instrumentation.git
 cd go-easy-instrumentation
 go build -o go-easy-instrumentation .
 sudo mv go-easy-instrumentation /usr/local/bin/   # or anywhere on your PATH
@@ -110,7 +110,7 @@ The following libraries are supported for automatic instrumentation. Listed belo
 ### Updating an existing version of Go Easy Instrumentation
 Updating or Downgrading Go Easy Instrumentation is a straightforward process.
 
- 1. Check for new [tagged releases](https://github.com/newrelic/go-easy-instrumentation/tags) OR run the following command within the project folder:
+ 1. Check for new [tagged releases](https://github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/tags) OR run the following command within the project folder:
     ```
     git tag
     ```
@@ -155,7 +155,7 @@ If the issue has been confirmed as a bug or is a Feature request, please file a 
 We encourage your contributions! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
 If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company, please drop us an email at opensource@newrelic.com.
 
-To learn more about how to contribute features to this project, read the [parser readme](/parser/README.md). The [godoc](https://pkg.go.dev/github.com/newrelic/go-easy-instrumentation) for this project is also kept up to date, and can be a great resource.
+To learn more about how to contribute features to this project, read the [parser readme](/parser/README.md). The [godoc](https://pkg.go.dev/github.com/bhagyalakshmi-qwtch/go-easy-instrumentation) for this project is also kept up to date, and can be a great resource.
 
 ## License
 Go easy instrumentation is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.

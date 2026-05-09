@@ -1,7 +1,7 @@
 package nrgrpc_test
 
 import (
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrgrpc"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrgrpc"
 	"go/token"
 	"reflect"
 	"testing"

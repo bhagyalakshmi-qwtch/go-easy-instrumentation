@@ -6,9 +6,9 @@ import (
 	"go/types"
 	"testing"
 
-	"github.com/newrelic/go-easy-instrumentation/integrations/nragent"
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrgin"
-	"github.com/newrelic/go-easy-instrumentation/parser"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nragent"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrgin"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/parser"
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"

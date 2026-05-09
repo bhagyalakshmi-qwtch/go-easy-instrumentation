@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/dave/dst"
-	"github.com/newrelic/go-easy-instrumentation/integrations/nragent"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nragent"
 	"github.com/stretchr/testify/assert"
 )
 

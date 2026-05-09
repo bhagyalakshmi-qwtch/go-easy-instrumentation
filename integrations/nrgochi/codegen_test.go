@@ -1,7 +1,7 @@
 package nrgochi_test
 
 import (
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrgochi"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrgochi"
 	"reflect"
 	"testing"
 

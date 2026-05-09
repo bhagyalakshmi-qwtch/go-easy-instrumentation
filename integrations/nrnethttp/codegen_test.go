@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/newrelic/go-easy-instrumentation/integrations/nrnethttp"
-	"github.com/newrelic/go-easy-instrumentation/internal/codegen"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/integrations/nrnethttp"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/codegen"
 
 	"github.com/dave/dst"
 )

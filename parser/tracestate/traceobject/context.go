@@ -5,9 +5,9 @@ import (
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
-	"github.com/newrelic/go-easy-instrumentation/internal/codegen"
-	"github.com/newrelic/go-easy-instrumentation/internal/comment"
-	"github.com/newrelic/go-easy-instrumentation/internal/util"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/codegen"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/comment"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/util"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
-	"github.com/newrelic/go-easy-instrumentation/internal/common"
-	"github.com/newrelic/go-easy-instrumentation/internal/util"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/common"
+	"github.com/bhagyalakshmi-qwtch/go-easy-instrumentation/internal/util"
 )
 
 // IfErrorNotNilNoticeError creates an if statement that checks if the errorVariable is not nil, and calls notice error if its not nil
