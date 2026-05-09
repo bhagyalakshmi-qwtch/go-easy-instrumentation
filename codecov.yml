@@ -1,0 +1,22 @@
+coverage:
+  range: 60..80
+  round: nearest
+  precision: 2
+
+ignore:
+  - validation-tests/**
+
+component_management:
+  individual_components:
+    - component_id: parser
+      name: Parser
+      paths: 
+        - parser/** 
+    - component_id: codegen
+      name: Codegen
+      paths: 
+        - internal/codegen/**
+    - component_id: util
+      name: Utilities
+      paths: 
+        - internal/util/**
